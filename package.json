@@ -107,7 +107,7 @@
     "preview": "vite preview --port 7000",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "start": "yarn run dev",
-    "serve": "yarn run preview",
+    "serve": "yarn run preview --host",
     "test": "echo \"Write tests! && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
